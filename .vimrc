@@ -58,3 +58,4 @@ inoremap /*<cr>         /*<cr><Space>*/<Esc>O*
 inoremap /**<cr>        /**<cr><Space>*/<Esc>O*                                           
 inoremap <Leader>/*     /*       
 
+call pathogen#infect()
