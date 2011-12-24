@@ -1,5 +1,7 @@
 scriptencoding utf-8
 
+call pathogen#infect()
+
 syntax on
 set tabstop=4
 set shiftwidth=4
@@ -58,4 +60,5 @@ inoremap /*<cr>         /*<cr><Space>*/<Esc>O*
 inoremap /**<cr>        /**<cr><Space>*/<Esc>O*                                           
 inoremap <Leader>/*     /*       
 
-call pathogen#infect()
+map <F3> <esc>:Tabularize /:<cr>
+map <F4> <esc>:Tabularize /=<cr>
