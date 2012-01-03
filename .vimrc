@@ -11,13 +11,13 @@ set autoindent
 "set smartindent "turn of for use with delimitMate
 set showmatch
 set incsearch
-set cursorline
 
 set t_Co=256
 
 if has('gui_running')
     colo wombat
     set guifont=Droid\ Sans\ Mono\ 9
+    set cursorline
 else 
     set guifont=Consolas
     colo colormat
@@ -47,7 +47,7 @@ set backspace=2 "windows fix
 set completeopt=longest,menu,preview
 imap <C-Space> <C-n>
 
-set colorcolumn=80
+set colorcolumn=90
 
 let delimitMate_expand_cr = 1
 
@@ -55,10 +55,10 @@ let delimitMate_expand_cr = 1
 noremap <C-k> :s/^/\/\//<CR>
 noremap <C-u> :s/^\/\///<CR>
 
-inoremap /*<Space>      /**/<Left><Left><space><space><left>                              
-inoremap /*<cr>         /*<cr><Space>*/<Esc>O*                                            
-inoremap /**<cr>        /**<cr><Space>*/<Esc>O*                                           
-inoremap <Leader>/*     /*       
+inoremap /*<Space>      /**/<Left><Left><space><space><left>
+inoremap /*<cr>         /*<cr><Space>*/<Esc>O*
+inoremap /**<cr>        /**<cr><Space>*/<Esc>O*
+inoremap <Leader>/*     /*
 
 map <F3> <esc>:Tabularize /:<cr>
 map <F4> <esc>:Tabularize /=<cr>
