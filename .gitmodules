@@ -7,9 +7,6 @@
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
 	url = git@github.com:mateuszwozniak/delimitMate.git
-[submodule "bundle/node-jshint"]
-	path = bundle/node-jshint
-	url = git@github.com:mateuszwozniak/node-jshint.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
