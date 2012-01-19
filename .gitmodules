@@ -13,3 +13,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git@github.com:mateuszwozniak/tabular.git
+[submodule "bundle/jshint.vim"]
+	path = bundle/jshint.vim
+	url = git://github.com/walm/jshint.vim.git
