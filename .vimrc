@@ -47,8 +47,6 @@ set backspace=2 "windows fix
 set completeopt=longest,menu,preview
 imap <C-Space> <C-n>
 
-set colorcolumn=90
-
 let delimitMate_expand_cr = 1
 
 " (un)comment selected block of text
@@ -62,3 +60,9 @@ inoremap <Leader>/*     /*
 
 map <F3> <esc>:Tabularize /:<cr>
 map <F4> <esc>:Tabularize /=<cr>
+
+map <F9> <esc>:!clear && buster test<cr>
+map <F10> <esc>:!clear && buster test --reporter specification<cr>
+
+let g:ctrlp_working_path_mode = 0
+
