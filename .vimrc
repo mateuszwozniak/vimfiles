@@ -8,9 +8,10 @@ set shiftwidth=4
 set expandtab
 set number
 set autoindent
-"set smartindent "turn of for use with delimitMate
+"set smartindent "turn off for use with delimitMate
 set showmatch
 set incsearch
+set autoread
 
 set t_Co=256
 
