@@ -39,7 +39,7 @@ set cmdheight=1 "prevent enter confirmation after executed command
 " NERDTree configuration
 let g:NERDTreeWinPos = "right"
 map <F2> :NERDTreeToggle<CR>
-map <F3> :NERDTreeFind<CR>
+map <c-s-r> :NERDTreeFind<CR>
 
 set timeout ttimeout ttimeoutlen=200 "cut time out a bit
 
